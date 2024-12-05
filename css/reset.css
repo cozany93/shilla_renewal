@@ -1,0 +1,40 @@
+/* pretendard체 연결 */
+@import url("https://webfontworld.github.io/pretendard/Pretendard.css");
+/* Frank Ruhl Libre체 연결 */
+@import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&display=swap");
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    font-size: 100%;
+    overflow-x: hidden;
+    font-family: "Pretendard", sans-serif;
+    /* font-family: "Frank Ruhl Libre", serif; */
+}
+
+ol,ul,li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+img,svg,video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+button,input{
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
